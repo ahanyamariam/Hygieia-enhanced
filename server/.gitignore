@@ -10,15 +10,16 @@ build/
 .env.local
 .env*.local
 
-# Vite
-.vite/
-
 # Logs
 *.log
+logs/
 
 # OS
 .DS_Store
 
-# Cache
-*.tsbuildinfo
-.eslintcache
+# Uploads
+uploads/
+
+# Database
+*.sqlite
+*.db
